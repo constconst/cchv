@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* COLORES PRINCIPALES */
+
+:root {
+    --main-color: #344284;
+    --lighter-blue: #7C89CB;
+    --gray-1: #9C9990;
+    --gray-2: #E2E1DF;
+    --gray-3: #EBEBEB;
+    --highlight-blue: #6F86F0;
+    --highlight-green: #85FFC7;
+    --highlight-red: #EF8080;
+}
+
+body {
+    margin-right: 140px;
+    margin-left: 140px;
+}
+
+
+/* VIDEO BACKGROUND */
+
+.video-background {
+    background: var(--main-color);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -99;
+}
+
+.video-foreground,
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.video-topcontent .list-group-item {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
