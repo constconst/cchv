@@ -44,7 +44,24 @@ body {
     pointer-events: none;
 }
 
+
+/* PROGRAMAS */
+
 .video-topcontent .list-group-item {
     background-color: rgba(0, 0, 0, 0);
     color: white;
+}
+
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+    /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+.list-group-item {
+    padding: 10px 0 0 0;
+    border: 0;
 }
