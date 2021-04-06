@@ -65,3 +65,8 @@ body {
     padding: 10px 0 0 0;
     border: 0;
 }
+
+.video-infohidden {
+    opacity: 0;
+    font-size: 30px;
+}
