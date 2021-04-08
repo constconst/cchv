@@ -113,7 +113,7 @@ body {
 }
 
 .agenda-image {
-    height: 283px;
+    height: 260px;
     border-top: 1px solid var(--main-color);
     width: "100%";
 }
