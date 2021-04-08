@@ -70,3 +70,50 @@ body {
     opacity: 0;
     font-size: 30px;
 }
+
+
+/* SOMOS */
+
+#seccionsomos {
+    height: 80vh;
+}
+
+
+/* NOTICIAS */
+
+.card {
+    max-width: 342px;
+}
+
+
+/* CAMPOS MAGNETICOS */
+
+.agenda-single {
+    border: 1px solid var(--main-color);
+    padding: 0;
+    max-width: 342px;
+}
+
+.titulo-agenda {
+    width: 60%;
+}
+
+.agendar {
+    width: 40%;
+}
+
+.titulo-agenda,
+.agendar {
+    height: 60px;
+    border: 0;
+}
+
+.agendar {
+    background-color: var(--highlight-green);
+}
+
+.agenda-image {
+    height: 283px;
+    border-top: 1px solid var(--main-color);
+    width: "100%";
+}
