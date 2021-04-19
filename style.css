@@ -4,7 +4,7 @@
 }
 
 
-/* COLORES PRINCIPALES */
+/* PALETA DE COLORES */
 
 :root {
     --main-color: #344284;
@@ -81,9 +81,10 @@ body {
 
 /* NOTICIAS */
 
-.card {
-    max-width: 342px;
-}
+
+/* .card {
+    max-width: 342px; 
+} */
 
 
 /* CAMPOS MAGNETICOS */
@@ -91,7 +92,7 @@ body {
 .agenda-single {
     border: 1px solid var(--main-color);
     padding: 0;
-    max-width: 342px;
+    /* max-width: 342px; */
 }
 
 .titulo-agenda {
@@ -115,5 +116,15 @@ body {
 .agenda-image {
     height: 260px;
     border-top: 1px solid var(--main-color);
-    width: "100%";
+    /* width: 100%; */
+}
+
+
+/* 
+ * SOMOS 
+ */
+
+#page-somos {
+    background-color: var(--main-color);
+    color: white;
 }
