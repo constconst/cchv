@@ -128,3 +128,25 @@ body {
     background-color: var(--main-color);
     color: white;
 }
+
+
+/* 
+ * Noticias 
+ */
+
+.last-post-img img {
+    object-fit: contain;
+}
+
+.last-post-info {
+    background-color: var(--lighter-blue);
+    height: 100%;
+    position: relative;
+}
+
+.last-post-info div {
+    align-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    padding: 50px;
+}
