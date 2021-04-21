@@ -30,7 +30,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: -99;
+    z-index: -2;
     height: 100%;
     position: absolute;
 }
@@ -149,4 +149,42 @@ body {
     position: absolute;
     bottom: 0;
     padding: 50px;
+}
+
+.pinned-card {
+    min-height: 500px;
+    object-fit: cover!important;
+}
+
+.card-img-overlay {
+    background-image: url("/img/Astronomy_0.jpg")!important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(111, 134, 240, 0.4);
+}
+
+.card {
+    border: 0;
+}
+
+
+/* Notv */
+
+#main-video {
+    background-color: var(--main-color);
+}
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
