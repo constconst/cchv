@@ -116,13 +116,6 @@ input {
 }
 
 
-/* SOMOS */
-
-#seccionsomos {
-    height: 80vh;
-}
-
-
 /* NOTICIAS */
 
 
@@ -174,6 +167,58 @@ input {
 }
 
 
+/* Notv */
+
+#main-video {
+    background-color: var(--main-color);
+}
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+/* 
+ * PAGE 
+ */
+
+.page-nav-background {
+    background-color: var(--main-color);
+}
+
+.list-group-item {
+    background-color: transparent;
+    color: white;
+}
+
+
+/* SOMOS */
+
+#seccionsomos {
+    height: 80vh;
+}
+
+
+/* page-title es un estilo que debería usarse en todos los page */
+
+.page-title {
+    margin-top: 130px;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+
 /* 
  * Noticias 
  */
@@ -209,40 +254,4 @@ input {
 
 .card {
     border: 0;
-}
-
-
-/* Notv */
-
-#main-video {
-    background-color: var(--main-color);
-}
-
-.iframe-container {
-    overflow: hidden;
-    padding-top: 56.25%;
-    position: relative;
-}
-
-.iframe-container iframe {
-    border: 0;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-
-/* 
- * PAGE 
- */
-
-.page-nav-background {
-    background-color: var(--main-color);
-}
-
-.list-group-item {
-    background-color: transparent;
-    color: white;
 }
